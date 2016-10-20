@@ -1,0 +1,53 @@
+.tasks {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.list {
+  padding-left: 0;
+}
+
+.item {
+  min-height: 35px;
+  display: block;
+}
+
+.item-text {
+  width: 50%;
+  position: relative;
+  padding-right: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.edit .item-text {
+  border: 1px solid #3bff3b;
+}
+
+.btn-del {
+  background: #d8d8d8;
+  color: #000;
+  border-color: #d8d8d8;
+}
+
+.btn-readiness {
+  background: green;
+  color: #fff;
+  border-color: green;
+}
+
+.btn-readiness.done {
+  background: #63805c;
+  border-color: #63805c;
+}
+
+button {
+  float: right;
+}
+.link {
+  margin-left: 10px;
+  color: blue;
+}
+
+.link.is-active {
+  color: tomato;
+}
